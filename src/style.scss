@@ -1,0 +1,127 @@
+.inputBox {
+    // border: 2px solid red;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
+    padding: 20px 0;
+    column-gap: 20px;
+
+    input {
+        border: 1px solid;
+        padding: 7px 0;
+        padding-left: 10px;
+        padding-right: 50px;
+        border-radius: 8px;
+        outline: none;
+
+
+    }
+
+    button {
+        border: 1px solid gray;
+        padding: 7px 20px;
+        border-radius: 8px;
+        background-color: #FF8C00;
+        font-weight: 500;
+        color: #fff;
+
+    }
+}
+.userHeadline{
+    text-align: center;
+    font-size: 44px;
+    color: #fff;
+    margin-top: 20px;
+}
+.usercard {
+    // border: 2PX SOLID red;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    .innerDiv {
+        // border: 1px solid blue;
+       
+        background: #525252;  /* fallback for old browsers */
+        background: -webkit-linear-gradient(to right, #3d72b4, #525252);  /* Chrome 10-25, Safari 5.1-6 */
+        background: linear-gradient(to right, #3d72b4, #525252); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+        color: #fff;
+        display: flex;
+        margin: 50px 0;
+        align-items: center;
+        column-gap: 30px;
+        padding: 30px 40px;
+        @media(max-width:645px){
+            margin: 20px 30px;
+            flex-direction: column;
+
+        }
+
+        .userleftside {
+            .userImg {
+                width: 200px;
+            }
+        }
+        .userRightSide{
+            // border: 1px solid red;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            row-gap: 10px;
+            padding: 20px;
+            .userName{
+                font-size: 38px;
+            }
+            .userStatus{
+                // border: 1px solid blue;
+                display: flex;
+                align-items: center;
+                column-gap: 10px;
+                justify-content: center;
+                @media(max-width:1023px){
+                    flex-wrap: wrap;
+                    row-gap: 10px;
+                }
+
+                .usercommon{
+                    // border: 1px solid green;
+                    padding: 5px 20px;
+                    border-radius: 15px;
+                    font-weight: 500;
+                }
+                .userfollowing{
+                    background-color: #37cdbe;
+                }
+                .userfollower{
+                    background-color: #f000b8;
+                }
+                .userGits{
+                    background-color: #793ef9;
+                }
+                .userRepo{
+                    background-color: lightcoral;
+                }
+            }
+            .userLocation{
+                display: flex;
+                font-size: 24px;
+                align-items: center;
+                column-gap: 10px;
+                font-weight: 600;
+            }
+            .userProfile{
+                a{
+                    button{
+                        border: 1px solid;
+                        padding: 5px 30px;
+                        font-size: 22px;
+                        font-weight: 500;
+
+
+                    }
+                }
+            }
+        }
+    }
+}

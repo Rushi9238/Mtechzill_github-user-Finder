@@ -7,7 +7,7 @@
   -moz-column-gap: 20px;
        column-gap: 20px;
 }
-@media (max-width: 360px) {
+@media (max-width: 399px) {
   .inputBox {
     flex-direction: column;
     row-gap: 20px;

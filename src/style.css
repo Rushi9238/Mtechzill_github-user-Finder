@@ -30,6 +30,11 @@
   color: #fff;
   margin-top: 20px;
 }
+@media (max-width: 645px) {
+  .userHeadline {
+    font-size: 34px;
+  }
+}
 
 .usercard {
   display: flex;
@@ -49,12 +54,23 @@
 }
 @media (max-width: 645px) {
   .usercard .innerDiv {
-    margin: 20px 30px;
+    margin: 10px 60px;
     flex-direction: column;
+    padding: 20px 30px;
+  }
+}
+@media (max-width: 499px) {
+  .usercard .innerDiv {
+    margin: 10px 10px;
   }
 }
 .usercard .innerDiv .userleftside .userImg {
   width: 200px;
+}
+@media (max-width: 645px) {
+  .usercard .innerDiv .userleftside .userImg {
+    width: 150px;
+  }
 }
 .usercard .innerDiv .userRightSide {
   display: flex;
@@ -63,8 +79,18 @@
   row-gap: 10px;
   padding: 20px;
 }
+@media (max-width: 645px) {
+  .usercard .innerDiv .userRightSide {
+    padding: 0 20px;
+  }
+}
 .usercard .innerDiv .userRightSide .userName {
   font-size: 38px;
+}
+@media (max-width: 499px) {
+  .usercard .innerDiv .userRightSide .userName {
+    font-size: 28px;
+  }
 }
 .usercard .innerDiv .userRightSide .userStatus {
   display: flex;
@@ -83,6 +109,11 @@
   padding: 5px 20px;
   border-radius: 15px;
   font-weight: 500;
+}
+@media (max-width: 499px) {
+  .usercard .innerDiv .userRightSide .userStatus .usercommon {
+    font-size: 14px;
+  }
 }
 .usercard .innerDiv .userRightSide .userStatus .userfollowing {
   background-color: #37cdbe;
@@ -104,9 +135,19 @@
        column-gap: 10px;
   font-weight: 600;
 }
+@media (max-width: 499px) {
+  .usercard .innerDiv .userRightSide .userLocation {
+    font-size: 20px;
+  }
+}
 .usercard .innerDiv .userRightSide .userProfile a button {
   border: 1px solid;
   padding: 5px 30px;
   font-size: 22px;
   font-weight: 500;
+}
+@media (max-width: 499px) {
+  .usercard .innerDiv .userRightSide .userProfile a button {
+    font-size: 20px;
+  }
 }/*# sourceMappingURL=style.css.map */

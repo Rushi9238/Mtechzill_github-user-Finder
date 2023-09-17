@@ -48,4 +48,4 @@ Before you start, ensure you have the following requirements:
 1. Clone the GitHub Profile Finder repository to your local machine:
 
    ```bash
-   git clone https://github.com/your-username/github-profile-finder.git
+   git clone https://github.com/Rushi9238/Mtechzill_github-user-Finder.git

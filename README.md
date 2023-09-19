@@ -2,7 +2,7 @@
 
 Welcome to the GitHub Profile Finder App, a powerful web application built with ReactJS that allows you to search for GitHub user profiles easily.
 
-![GitHub Profile Finder App](./githubFinderDemo.PNG)
+![GitHub Profile Finder App](githubFinderDemo.PNG)
 
 ## Table of Contents
 
